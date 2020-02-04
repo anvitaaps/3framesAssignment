@@ -39,7 +39,7 @@
 
       <mat-expansion-panel *ngFor="let item of data"> 
         <mat-expansion-panel-header>
-          {{ item.email }}
+          <strong>{{ item.email }}</strong>
         </mat-expansion-panel-header>
         
         <img [src]="item.avatar">
